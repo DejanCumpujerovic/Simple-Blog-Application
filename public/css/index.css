@@ -1,0 +1,86 @@
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+.post {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.post h2 {
+    color: #007bff;
+}
+
+.post ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.post ul li {
+    margin-bottom: 10px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border: none;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+.alert {
+    padding: 10px;
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
+/* Custom Styling for the Warning (Yellow) Button */
+.btn-warning {
+    background: linear-gradient(145deg, #ff9800, #ffc107); /* Orange to Yellow gradient */
+    color: white; /* White text */
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 0;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-warning:hover {
+    background: linear-gradient(145deg, #ffc107, #ff9800); /* Reverse gradient on hover */
+    transform: translateY(-3px); /* Slight lift effect on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+
+
+
